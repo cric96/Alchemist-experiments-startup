@@ -33,7 +33,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4.0.0
-    - uses: DanySK/build-check-deploy-gradle-action@2.2.8
+    - uses: DanySK/build-check-deploy-gradle-action@2.2.9
       with:
         build-command: true
         check-command: ./gradlew runAllGraphic
